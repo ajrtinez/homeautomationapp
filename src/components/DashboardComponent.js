@@ -21,22 +21,22 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems, secondaryListItems } from './ListItemComponent';
 import Temperature from './TemperatureComponent';
 import Music from './MusicComponent';
-import Calendar from './CalendarComponent';
+import Lighting from './LightingComponent';
 import { grey } from '@material-ui/core/colors';
 import Avatar from '@material-ui/core/Avatar';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+// function Copyright() {
+//   return (
+//     <Typography variant="body2" color="textSecondary" align="center">
+//       {'Copyright © '}
+//       <Link color="inherit" href="https://material-ui.com/">
+//         Your Website
+//       </Link>{' '}
+//       {new Date().getFullYear()}
+//       {'.'}
+//     </Typography>
+//   );
+// }
 
 const drawerWidth = 240;
 
@@ -203,13 +203,13 @@ function Dashboard() {
             <Grid item xs={12} md={6} lg={4}>
               <Music />
             </Grid>
-            {/* CALENDAR */}
+            {/* LIGHTING */}
             <Grid item xs={12}>
-              <Calendar />
+              <Lighting />
             </Grid>
           </Grid>
           <Box pt={4}>
-            <Copyright />
+            {/* <Copyright /> */}
           </Box>
         </Container>
         </main>

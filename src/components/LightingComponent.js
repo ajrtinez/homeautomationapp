@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Calendar() {
+export default function Lighting() {
   const classes = useStyles();
 
   return (
@@ -34,17 +34,17 @@ export default function Calendar() {
           <div className={classes.cardDetails}>
             <CardContent className={classes.cardContent}>
               <Typography component="h2" variant="h5">
-                Calendar
+                Lighting
               </Typography>
               <Typography variant="subtitle1" color="textSecondary">
-                Today
+                Multi-room
               </Typography>
             </CardContent>
           </div>
           <div className={classes.cardImage}>
             <CardContent>
             <Typography variant="subtitle1" color="textSecondary">
-                (TODAY'S DATE)
+                (LIGHT ADJUSTMENT)
               </Typography>
             </CardContent>
           </div>
