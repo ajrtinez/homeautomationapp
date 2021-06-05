@@ -6,7 +6,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Hidden from '@material-ui/core/Hidden';
-// import Date from './DateComponent';
 
 
 
@@ -34,7 +33,7 @@ export default function Lighting() {
           <div className={classes.cardDetails}>
             <CardContent className={classes.cardContent}>
               <Typography component="h2" variant="h5">
-                Lighting
+                Lights
               </Typography>
               <Typography variant="subtitle1" color="textSecondary">
                 Multi-room
